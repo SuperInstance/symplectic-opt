@@ -1,0 +1,9 @@
+[package]
+name = "symplectic-opt"
+version = "0.1.0"
+edition = "2021"
+description = "Symplectic optimization, conservation-law-encoded training, and Hamiltonian neural networks"
+license = "MIT"
+keywords = ["symplectic", "hamiltonian", "optimization", "conservation", "geometry"]
+categories = ["mathematics", "science"]
+repository = "https://github.com/SuperInstance/symplectic-opt"

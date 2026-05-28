@@ -1,3 +1,9 @@
+#![allow(
+    clippy::needless_range_loop,
+    clippy::new_without_default,
+    clippy::type_complexity,
+    dead_code
+)]
 //! # Symplectic Opt
 //!
 //! Symplectic optimization and Hamiltonian dynamics for conservation-law-aware training.

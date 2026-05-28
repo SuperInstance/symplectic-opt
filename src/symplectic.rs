@@ -16,7 +16,7 @@ impl SymplecticMatrix {
     /// Create from a 2n×2n matrix, verifying symplecticity.
     pub fn new(data: Vec<Vec<f64>>) -> Result<Self, String> {
         let m = data.len();
-        if m == 0 || m % 2 != 0 {
+        if m == 0 || !m.is_multiple_of(2) {
             return Err("Matrix must be 2n×2n".into());
         }
         for row in &data {

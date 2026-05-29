@@ -33,3 +33,5 @@ let (q, p) = h.stormer_verlet(&[1.0], &[0.0], 0.01, 1000);
 ## License
 
 MIT
+
+Part of the [SuperInstance OpenConstruct](https://github.com/SuperInstance/OpenConstruct) ecosystem.
